@@ -1,0 +1,10 @@
+id,month,Total Hair Collected (kg),Hair Type,Length (cm),Color,Condition,Service Type,batch
+,01-2020 to 06-2020,90,Straight,25,Black,Healthy,trim,batch 1
+,06-2020 to 12-2020,120,Curly,20,Brown,Dyed,haircut,batch 1
+,01-2021 to 06-2021,102,wavy,30,blonde ,healthy,haircut,batch 1
+,06-2021 to 12-2021,115,straight,22,red,damaged,haircut,batch 1
+,01-2022 to 06-2022,80,wavy,18,black,dyed,trim,batch 1
+,06-2022 to 12-2022,111,Curly,25,blonde ,healthy,haircut,batch 1
+,01-2023 to 06-2023,120,straight,20,brown,healthy,haircut,batch 1
+,06-2023 to 12-2023,80,wavy,28,black,damaged,trim,batch 1
+,01-2024 to 06-2024,100,curly,24,red,healthy,haircut,batch 1

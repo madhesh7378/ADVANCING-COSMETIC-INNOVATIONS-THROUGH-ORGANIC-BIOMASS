@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="contents/css/style.css" rel='stylesheet' type='text/css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+    var check = function() {
+      if (document.getElementById('password').value ==
+        document.getElementById('confirm_password').value) {
+        document.getElementById('message').style.color = 'green';
+        document.getElementById('message').innerHTML = 'matching';
+        document.getElementById('submitBtn').disabled = false;
+      } else {
+        document.getElementById('message').style.color = 'red';
+        document.getElementById('message').innerHTML = 'not matching';
+        document.getElementById('submitBtn').disabled = true;
+      }
+    }
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Catchy Login and Registration Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+  <script src="contents/js/jquery-1.11.1.min.js"></script>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,600,300italic,300' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Client Side</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    .password-container {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .password-container input {
+      padding-right: 40px; /* Adjust as needed based on your icon size */
+    }
+
+    .password-container .fa-lock {
+      position: absolute;
+      left: 10px; /* Adjust this value to position the lock icon */
+      top: 30%;
+      transform: translateY(-50%);
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <h1>Client Login And Registration</h1>
+  <div class="container w3l">
+    <span title="REGISTER" class="button"> +</span>
+    <div class="content">
+      <div class="head">
+        <h3>Register</h3>
+      </div>
+      <div class="body">
+        <div class="login-top sign-top w3-agile">
+          <form action="ClientRegister" method="post">
+            <input type="text" name="Name" class="name active" placeholder="Name" minlength="0" maxlength="15" pattern="[A-Za-z ]*" autocomplete="off" required="">
+            <input type="text" name="Email" class="email" placeholder="Email" autocomplete="off" pattern="^[a-zA-Z0-9.]+@gmail\.com$" required="">
+            <input type="text" name="Phone" class="phone" placeholder="Phone" autocomplete="off" pattern="^[6789][0-9]{9}" required="">
+
+            <div class="password-container">
+              <input type="password" id="password" name="Password" class="Password password" onkeyup='check()' autocomplete="off" title="Password Should contain atleast 1 numbers,atleast 1 small alphates,1 capital alphabets,1 special character" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="">
+              
+            </div>
+
+            <div class="password-container">
+              <input type="password" id="confirm_password" name="confirmPassword" class="Password" autocomplete="off" onkeyup='check();' placeholder="Confirm Password" required="">
+              <i class="fa fa-lock"></i>
+            </div>
+
+            <input type="submit" id="submitBtn" style="font-size: 0.9em; color: #fff; background: #EFC509; outline: none; border: none; cursor: pointer; padding: 10px 20px; -webkit-appearance: none;" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+    $('.button').click(function (e) {
+      e.preventDefault();
+      $(this).parent().toggleClass('expand');
+      $(this).parent().children().toggleClass('expand');
+    });
+  </script>
+
+  <div class="login-inner">
+    <div class="log-head">
+      <h2>Login</h2>
+    </div>
+    <div class="login-top">
+      <form action="ClientLogin" method="post">
+        <input type="text" name="Email" class="email" pattern="^[a-zA-Z0-9.]+@gmail\.com$" autocomplete="off" placeholder="Email" required=""/>
+        <div class="password-container">
+          <input type="password" id="logpassword" name="Password" class="Password" autocomplete="off" title="Password Should contain atleast 1 numbers,atleast 1 small alphates,1 capital alphabets,1 special character" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required=""/>
+          <i class="fa fa-lock"></i>
+        </div>
+        <div class="login-bottom">
+          <ul>
+            <li>
+              <form>
+                <input type="submit" value="LOGIN">
+              </form>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </form>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+id,Product Name,Description,Type,Price (INR),Volume (ml/g),Suitable Type,Active ingrediants,purpose,path
+1,Whiteglow-Skin-Whitening,"This Light Weight Creme gets quicky absorbed by skin. 
+ Its rare plant extracts reduces dark spots, pigmentation and milk enzymes gives deep nourishment. 
+ It also has SPF 25 that protects skin from harmful sun damages.",Face Cream,325,60 ml,All skin types, Mulberry,"Brightening, UV Protection",projectimages/Whiteglow-Skin-Whitening.jpg
+2,Strawberry-Shine ,"The Strawberry Shine Lip Balm provides your lips with beautiful shine while keeping your delicate skin soft and hydrated.
+ Cares for the skin
+ Free from petroleum-based ingredients, synthetic colourants & preservatives
+ Provides a beautiful shine",Lip Care Products,140,4.5 g,All Skin Types,Strawberry seed oil,"nourishes and hydrates your lips for 24 hours, keeping them soft and supple",projectimages/Strawberry-Shine.jpg
+3,Ultra-Sheer,"Give your skin a boost of protection with Neutrogena® Ultra Sheer Dry Touch Sunblock SPF 50+ PA++++. 
+ Formulated with Advanced Helioplex™ XP Technology and an ultralight texture, 
+ it offers powerful protection against 5 signs of sun damage and harmful UVA/UVB rays, leaving no white cast.
+",Sunscreen Lotions,699,88 ml,All Skin Types, Homosalate,"Protect Skin 6 layers deep from skin-ageing UVA rays,Sun Protection,Leaves no white cast, 
+ Invisible skin protection.",projectimages/Ultra-Sheer.jpg
+4,WOW Apple Cider Vinegar Shampoo," WOW Apple Cider Vinegar Shampoo is formulated with apple cider vinegar, almond oil, and argan oil to cleanse the scalp, remove buildup, restore shine, balance pH levels, and improve hair texture. It is suitable for all hair types, including colored hair.",Shampoo,269,340 ml,Damaged hair,Apple Cider Vinegar,"Purifies, hydrates, rebalances scalp",projectimages/shampoo.jpg
+5,Hairfall-Solution,"Contains keratin damage blockers technology that helps prevent hair breakage caused by damage, resulting in up to 98% less hair fall when used daily. Strengthens hair from root to tip. 
+ Prevents damage that results in hair breakage",Shampoo,400,190ml,Thin and fragile hair,"Clay, Salicylic Acid","Gives Frizz Free and Smooth and Manageable Hair 
+Reduces hair fall due to breakage and styling damage",projectimages/Hairfall-Solution.jpg
+6,Keratin-Infusion," This salon proven system, infused with Keratin, helps seal the cuticle and provide lasting smoothness. 
+Our Suave Professionals Keratin Infusion Shampoo is a low sulfate, pH balanced hair shampoo gently cleanses, leaving hair vibrant. 
+Our smoothing shampoo leaves hair feeling smooth and manageable for easy styling.",Shampoo,500,300 ml,All hair Type,Keratin,infuses keratin inside the hair fiber and provides lasting smoothness,projectimages/Keratin-Infusion.jpg
+7,Keratin-Repair ,". Keratin is known to smoothen the hair. 
+It also reduces frizz and gives hair a straighter appearance. 
+Argan oil helps grow thicker and healthier hair strands.
+This keratin conditioner works like a double-edged sword. 
+Regular use of the TRESemme Conditioner for frizzy hair provides 100% smoother hair with more shine.",Conditioner	,600,250 ml,All Hair Type, Keratin,visibly repairs hair from styling and heat damage,projectimages/Keratin-Repair.jpg
+8,Keratin-Spray,"spray helps your fibres stay intact with your hair through sweat, wind, and any other vigorous factors.
+Kerrato cares, hence, we formulated a hair fibre locking spray that is is safe for sensitive scalp. 
+",Hair Spray,750,100 ml,"straight,wavy hair","moringa, avocado,","hold,shine,protection,frizz control",projectimages/Keratin-Spray.jpg
+9,Shine-Liquid ,"Made with a water-based formula, this eyeliner is easy to apply and gives a rich, intense color. 
+The sleek, round cap of the bottle gives you a comfortable grip making it convenient to apply
+This eyeliner works magic in just one stroke and it stays on your eyes for many hours without smudging to keep your glamorous look intact. ",Eye Liner,450,4.5 g,All Skin Types,"Aqua, Triethanolamine","gives a rich, intense color",projectimages/Shine-Liquid.jpg
+10,soulflower rosemary,"Soulflower Rosemary Hair Growth Serum Concentrate is a potent blend designed to nourish your scalp and promote healthy hair growth. Infused with natural rosemary extracts, this serum works to strengthen hair roots, reduce hair fall, and encourage new hair growth. Its lightweight, non-greasy formula ensures easy absorption, leaving your hair feeling revitalized and strong.",Hair Growth Serum,650,15ml,All hair types,Jojoba Oil,Strengthens hair roots and reduces hair fall,projectimages/shampoo2.jpg
